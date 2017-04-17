@@ -4,6 +4,8 @@ image:
 configuration: Release
 after_build:
 - cmd: >-
+    call getwinpty.bat
+
     mkdir artefacts
 
     nuget pack -OutputDirectory artefacts
