@@ -15,6 +15,7 @@ namespace winpty
         public static extern int winpty_error_code(IntPtr err);
 
         [DllImport("winpty.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
+        [return: MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(ConstLPWStrMarshaler))]
         public static extern string winpty_error_msg(IntPtr err);
 
         [DllImport("winpty.dll", CallingConvention = CallingConvention.Cdecl)]
