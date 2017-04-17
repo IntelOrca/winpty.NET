@@ -18,11 +18,6 @@
     <file src="winpty.NET\bin\Release\winpty.NET.xml" target="lib\net40" />
 
     <!-- Native component -->
-    <file src="lib\x86\winpty-agent.exe" target="native\x86" />
-    <file src="lib\x86\winpty-debugserver.exe" target="native\x86" />
-    <file src="lib\x86\winpty.dll" target="native\x86" />
-    <file src="lib\x64\winpty-agent.exe" target="native\x64" />
-    <file src="lib\x64\winpty-debugserver.exe" target="native\x64" />
-    <file src="lib\x64\winpty.dll" target="native\x64" />
+    <file src="content\winpty\**\*" target="content\winpty" />
   </files>
 </package>
