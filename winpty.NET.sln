@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winpty.NET", "winpty.NET\winpty.NET.csproj", "{F29A07EE-9775-41B7-A249-388EA360FA0C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{91652023-7292-46B0-9B2E-C4114BFF745F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		getwinpty.bat = getwinpty.bat
+		LICENSE = LICENSE
+		README.md = README.md
+		winpty.nuspec = winpty.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49E19884-FA30-4FD6-8B86-FF19FDB3B24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winpty.NET", "src\winpty.NET\winpty.NET.csproj", "{F29A07EE-9775-41B7-A249-388EA360FA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F29A07EE-9775-41B7-A249-388EA360FA0C} = {49E19884-FA30-4FD6-8B86-FF19FDB3B24F}
 	EndGlobalSection
 EndGlobal

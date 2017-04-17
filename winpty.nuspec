@@ -14,8 +14,8 @@
   </metadata>
   <files>
     <!-- Managed wrapper -->
-    <file src="winpty.NET\bin\Release\winpty.NET.dll" target="lib\net40" />
-    <file src="winpty.NET\bin\Release\winpty.NET.xml" target="lib\net40" />
+    <file src="src\winpty.NET\bin\Release\winpty.NET.dll" target="lib\net40" />
+    <file src="src\winpty.NET\bin\Release\winpty.NET.xml" target="lib\net40" />
 
     <!-- Native component -->
     <file src="content\winpty\**\*" target="content\winpty" />
