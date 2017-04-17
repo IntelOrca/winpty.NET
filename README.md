@@ -1,6 +1,15 @@
 # winpty.NET
 A .NET wrapper for [winpty](https://github.com/rprichard/winpty).
 
+## Build Status
+|             | AppVeyor | NuGet |
+|-------------|----------|-------|
+| **master**  | [![AppVeyor](https://ci.appveyor.com/api/projects/status/g0m338d3u33o9gox/branch/master?svg=true)](https://ci.appveyor.com/project/IntelOrca/winpty-net) | [![NuGet Status](https://img.shields.io/nuget/v/winpty.NET.svg?style=flat)](https://www.nuget.org/packages/winpty.NET/) |
+
+## NuGet
+
+    PM> Install-Package winpty.NET
+
 ## Example
 ```csharp
 using System;
