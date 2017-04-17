@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>winpty.NET</id>
+    <version>0.4.2</version>
+    <authors>Ryan Prichard, Ted John</authors>
+    <owners>Ted John</owners>
+    <licenseUrl>https://github.com/intelorca/winpty.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/intelorca/winpty.NET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET wrapper for winpty.</description>
+    <copyright>Copyright Ryan Prichard, Ted John 2011-2017</copyright>
+    <tags>winpty wrapper xterm terminal console tty ansi vt100</tags>
+  </metadata>
+  <files>
+    <file src="winpty.NET\bin\Release\winpty.NET.dll" target="lib\net40" />
+    <file src="winpty.NET\bin\Release\winpty.NET.xml" target="lib\net40" />
+  </files>
+</package>
